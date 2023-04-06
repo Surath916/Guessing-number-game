@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 # Guess the number game
 #importing random library
 import random
@@ -38,7 +33,6 @@ def guessing_number_game():
 guessing_number_game()
 
 
-# In[ ]:
 
 
 
