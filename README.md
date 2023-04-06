@@ -5,15 +5,15 @@ In the python version 3.10.6 the below defined guessing number game is created.
 
 Algorithm:
 
-Using random.randint, the random library is loaded to produce a random number, (rand_num) between 1 and 100.
+Using random.randint, the random library is loaded to produce a random number(rand_num) between 1 and 100.
 
-When the user correctly guesses the number or exits the game, the guessing_number_game() function begins a loop that will run indefinitely.
+Untill the user correctly guesses the number or exits the game, the guessing_number_game() function begins a loop that will run indefinitely.
 
 The user is given the option to quit by typing "q" or entering a number between 1 and 100. The loop continues and the user is notified once more if the input is not a number or "q."
 
 The loop is interrupted and the game is over if the user types "q."
 
-The try block tries to convert the user's input into an integer if they enter a number. The loop continues if the input cannot be transformed, and the user is once more notified.
+The 'try' block tries to convert the user's input into an integer if they enter a number. The loop continues if the input cannot be transformed, and the user is once more notified.
 
 One more guess is added to the total.
 
